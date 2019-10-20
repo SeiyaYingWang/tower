@@ -9,6 +9,7 @@ import javax.persistence.Id;
 @Entity
 @Data
 public class TurbineInfo {
+
     @Id
     @GeneratedValue
     private Long id;

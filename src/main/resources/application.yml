@@ -20,3 +20,13 @@ spring:
       settings:
         web-allow-others: true
       path: /h2-console
+  redis:
+    database: 0
+    host: 192.168.19.131
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+    timeout: 5000
